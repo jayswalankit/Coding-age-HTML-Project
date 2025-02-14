@@ -1,0 +1,134 @@
+.container{
+    height: 700px;
+    background-color:rgba(181, 201, 238, 0.295);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.left-box{
+    height: 350px;
+    width: 250px;
+    border: 2px black solid;
+    background-image: url(signini\ bg.jpg);
+    background-size: cover;
+    border: 2px black solid;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+   display: flex;
+    flex-direction: column;
+   
+}
+.right-box{
+    height: 350px;
+    width: 250px;
+    border: 2px black solid;
+    background-image: url(signini\ bg.jpg);
+    background-size: cover;
+    border: 2px black solid;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+   display: flex;
+    flex-direction: column;
+}
+.email, .password {
+    height: 20px;
+    width: 180px;
+    margin: 10px;
+}
+.main-login{
+    width: 80%;
+    font-size: large;
+    font-weight: bold;
+    color: black;
+    margin: 10px 0;
+    padding: 10px 20px;
+    background-color: lightgray;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center; 
+    
+}
+.main-login:hover{
+    border: 2px black solid;
+}
+.google,.fb{
+   left: 20px;
+   
+   
+    
+
+}
+.google img {
+   width: 50px;
+   height: auto;
+   padding-left: 60px;
+   cursor: pointer;
+  
+   
+}
+
+.fb img{
+    height: 50px;
+    width: auto;
+    padding-left: 5px solid black;
+    cursor: pointer;
+   
+   
+}
+
+@media (max-width: 768px) {
+    .container {
+        height: auto; 
+        flex-direction: column; 
+            padding: 10px; }
+
+    .left-box, .right-box {
+        width: 100%; 
+            margin: 10px 0; }
+
+    .email, .password {
+        width: 90%; 
+        margin: 10px auto;
+    }
+
+    .main-login {
+        width: 90%; 
+    }
+
+    .google img, .fb img {
+        width: 40px; 
+        padding-left: 40px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        height: auto;
+    }
+
+    .left-box, .right-box {
+        width: 90%; 
+    }
+
+    .email, .password {
+        width: 100%; 
+    }
+
+    .main-login {
+        width: 100%; 
+        padding: 12px; 
+    }
+
+    .google img, .fb img {
+        width: 35px;
+        padding-left: 30px; 
+    }
+}
+
+
+
+
+    

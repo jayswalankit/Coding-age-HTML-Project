@@ -1,0 +1,94 @@
+.container{
+    height: 700px;
+    background-color:rgba(181, 201, 238, 0.295);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.box{
+    height: 350px;
+    width: 250px;
+    border: 2px black solid;
+    background-image: url(signini\ bg.jpg);
+    background-size: cover;
+    border: 2px black solid;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+   display: flex;
+    flex-direction: column;
+}
+.email,.password{
+    height: 20px;
+    width: 180px;
+    margin: 5px;
+
+}
+.login{
+    width: 80%;
+    font-size: large;
+    font-weight: bold;
+    color: black;
+    margin: 10px 0;
+    padding: 10px 20px;
+    background-color: lightgray;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center; 
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; 
+        gap: 20px; 
+    }
+}
+.container {
+    height: 700px;
+    background-color: rgba(181, 201, 238, 0.295);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    height: 350px;
+    width: 250px;
+    border: 2px black solid;
+    background-image: url(signini\ bg.jpg);
+    background-size: cover;
+    border: 2px black solid;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.email, .password {
+    height: 20px;
+    width: 180px;
+    margin: 5px;
+}
+
+.login {
+    width: 80%;
+    font-size: large;
+    font-weight: bold;
+    color: black;
+    margin: 10px 0;
+    padding: 10px 20px;
+    background-color: lightgray;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; 
+        gap: 20px; 
+    }
+}
